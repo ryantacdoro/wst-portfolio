@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	background: #e0ebeb;
 }
 
 #about_image {
@@ -17,11 +18,30 @@ body {
 	justify-content: center;
 }
 
+#about{
+	background-color: #d1e0e0;
+}
+
+.navbar {
+	background-color: #a3c2c2;
+}
+
 #footer {
 	padding: 30px;
 	text-align: center;
 }
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:hover {
-	background-color: #00a3cc;
+	background-color: #669999;
+}
+
+.navbar-nav > li > .nav-link1 a:hover {
+	background-color: #669999;
+}
+
+.card-title {
+	font-family: serif;
+	font-size: 30px;
+	font font-weight: bold;
 }
