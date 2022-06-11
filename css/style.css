@@ -1,0 +1,27 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#about_image {
+	border-radius: 100%;
+}
+
+#project_title {
+	color: white;
+}
+
+#projects_body {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+#footer {
+	padding: 30px;
+	text-align: center;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover {
+	background-color: #00a3cc;
+}
